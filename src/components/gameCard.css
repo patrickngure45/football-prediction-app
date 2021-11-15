@@ -1,0 +1,74 @@
+.gameContainer {
+  background-color: #1b2719;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.gameContainer p span {
+  color: #5dade2;
+  margin-left: 3px;
+}
+.gameContainer p {
+  margin: 5px 20px;
+}
+.headingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.headingContainer h5,
+h4 {
+  margin: 5px;
+  padding: 0;
+  color: #9dc54a;
+  font-size: 1rem;
+}
+.teamsContainer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.teamsContainer span {
+  margin: 0 20px;
+}
+.oddsContainer {
+  display: flex;
+  justify-content: center;
+}
+.prediction {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 960px) {
+  .gameContainer {
+    width: 50%;
+    margin: 1rem auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .gameContainer {
+    padding: 10px 0;
+  }
+  .teamsContainer span {
+    margin: 0 5px;
+  }
+  .gameContainer p {
+    margin: 5px 10px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .gameContainer p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .gameContainer p {
+    margin: 5px 2px;
+    font-size: 10px;
+  }
+  .teamsContainer span {
+    margin: 0 5px;
+    font-size: 10px;
+  }
+}

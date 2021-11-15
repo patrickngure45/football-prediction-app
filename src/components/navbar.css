@@ -1,0 +1,12 @@
+.navbar {
+  padding-bottom: 2rem;
+}
+h1 {
+  text-align: center;
+  color: turquoise;
+}
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}

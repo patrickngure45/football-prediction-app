@@ -1,0 +1,9 @@
+.footer {
+  margin: 2rem 0;
+  text-align: center;
+  color: #5dade2;
+}
+.footer span {
+  color: #ffee02;
+  font-style: italic;
+}

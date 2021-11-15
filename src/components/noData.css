@@ -1,0 +1,19 @@
+.welcomeContainer {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b2719;
+  border-radius: 10px;
+}
+.welcomeContainer p {
+  text-align: center;
+}
+@media screen and (max-width: 960px) {
+  .welcomeContainer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+.container {
+  max-width: 1040px;
+  min-height: 97vh;
+  margin: 0 auto;
+  padding: 10px;
+  background-image: url(/src/images/bg.jpg);
+  background-position: 'center';
+  background-size: 'cover';
+  background-repeat: 'no-repeat';
+  background-attachment: fixed;
+  color: #cfd0d2;
+  overflow-y: scroll;
+}
+.spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.daysContainer {
+  width: 50%;
+  margin: 0 auto;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.btnContainer button {
+  margin: 0 20px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #fff;
+  border-bottom: 1px groove aqua;
+  cursor: pointer;
+}
+@media screen and (max-width: 320px) {
+  .btnContainer button {
+    margin: 0 10px;
+  }
+}
