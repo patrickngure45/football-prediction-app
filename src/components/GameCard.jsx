@@ -3,7 +3,6 @@ import React from 'react';
 import './gameCard.css';
 
 const GameCard = ({ game }) => {
-  const odds = game.odds['12'];
   return (
     <section className="gameContainer">
       <div className="headingContainer">
@@ -19,7 +18,7 @@ const GameCard = ({ game }) => {
           Pick: <span>{game.prediction}</span>
         </p>
         <p>
-          Odds: <span>{odds}</span>
+          Odds: <span>{game.odds[game.prediction]}</span>
         </p>
       </div>
       <div className="prediction">
